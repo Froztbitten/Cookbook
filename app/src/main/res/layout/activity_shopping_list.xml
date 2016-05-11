@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.shavedandbearded.tomato.ShoppingList.ShoppingListActivity"
+    android:background="@drawable/glist">
+    <EditText
+        android:id="@+id/addItemShoppingList"
+        android:inputType="text"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_toLeftOf="@+id/addItemButton"
+        android:hint="@string/addItemShoppingList"/>
+    <ImageButton
+        android:id="@id/addItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="@string/addButtonText"
+        android:src="@drawable/ic_action_name"
+        android:background="@android:color/transparent"
+        android:onClick="addItem"/>
+    <ListView
+        android:id="@+id/listAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemShoppingList"
+        android:textStyle="bold"/>
+</RelativeLayout>

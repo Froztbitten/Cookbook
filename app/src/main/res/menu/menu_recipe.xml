@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.shavedandbearded.tomato.Cookbook.CookbookDescActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="3"
+        android:title=""
+        android:icon="@drawable/ic_delete_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_to_SL"
+        android:orderInCategory="1"
+        android:title=""
+        android:icon="@drawable/addshoppingcard"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="2"
+        android:title="@string/action_edit"
+        android:icon="@drawable/editrecipe"
+        app:showAsAction="always"/>
+</menu>

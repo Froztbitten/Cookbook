@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Tomato - eCookbook</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add</string>
+    <string name="fav">Favorites</string>
+    <string name="cookbook">Cookbook</string>
+    <string name="pantry">Pantry</string>
+    <string name="shoppingList">Shopping List</string>
+    <string name="title_activity_cookbook">Cookbook</string>
+    <string name="title_activity_cookbook_desc">Recipe</string>
+    <string name="title_activity_pantry">Pantry</string>
+    <string name="title_activity_shopping_list">Shopping List</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_edit_item">Edit Item</string>
+    <string name="addItemShoppingList">Add an item</string>
+    <string name="searchItemShoppingList">Search for an item</string>
+    <string name="addButtonText">Add</string>
+    <string name="searchButtonText">Search</string>
+    <string name="refreshButtonText">Refresh</string>
+    <string name="deleteButtonText">Delete</string>
+    <string name="someSettings">Some settings</string>
+    <string name="getHTTP">getHTTP</string>
+    <string name="makeItButtonText">Add to SL</string>
+
+    <string name="hint_recipe">Enter recipe name</string>
+    <string name="add_ing_button">Add ingredient</string>
+    <string name="hint_instructions">Type instructions here.</string>
+    <string name="button_save">Save this recipe!</string>
+
+    <string name="action_add_to_SL">Add to SL</string>
+    <string name="action_edit">Edit recipe</string>
+
+    <string name="itemNameEditText">item name</string>
+    <string name="count">Count</string>
+    <string name="increaseItemCount">+</string>
+    <string name="decreaseItemCount">-</string>
+    <string name="deleteItem">delete</string>
+    <string name="bookmarkItem">Bookmark</string>
+    <string name="title_activity_cookbook1">cookbook1</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="ingredients_text">Ingredients: </string>
+
+    <string-array name="measurements_array">
+        <item>US</item>
+        <item>Imperical</item>
+    </string-array>
+    <string-array name="us_measurements_array">
+        <item>---</item>
+        <item>lb</item>
+        <item>oz</item>
+        <item>gal</item>
+        <item>qt</item>
+        <item>pt</item>
+        <item>C</item>
+        <item>fl oz</item>
+        <item>tbsp</item>
+        <item>tsp</item>
+        <item>pinch</item>
+        <item>drop</item>
+    </string-array>
+    <string-array name="imperial_measurements_array">
+        <item>gal</item>
+        <item>qt</item>
+        <item>pt</item>
+        <item>gill</item>
+        <item>fl oz</item>
+        <item>mL</item>
+    </string-array>
+</resources>
